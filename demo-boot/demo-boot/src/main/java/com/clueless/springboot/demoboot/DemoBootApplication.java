@@ -1,14 +1,13 @@
-package com.clueless.springboot.springmvc;
+package com.clueless.springboot.demoboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringmvcApplication {
+public class DemoBootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringmvcApplication.class, args);
-
+		SpringApplication.run(DemoBootApplication.class, args);
 	}
 
 }
